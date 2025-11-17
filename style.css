@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0vw auto;
+    padding: 4vw 25vw;
+    background: linear-gradient(#fff3cd51, #d4edda);
+}
+
+h1 {
+    color: #333;
+}
+
+#addBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addBtn:hover {
+    background-color: #45a049;
+}
+
+.note {
+    background-color: #fff3cd;
+    padding: 2vw;
+    margin: 1vw 0;
+    border: 2px 2px solid #ddd;
+}
+
+.note textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+}
+
+.deleteBtn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
